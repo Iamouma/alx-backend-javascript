@@ -14,4 +14,4 @@ const Utils = {
   } 
 }
 
-module.exports = Utils;
+mmodule.exports = Utils;

@@ -1,27 +1,27 @@
-Toggle navigation
+## Toggle navigation
 Curriculum
 Short Specializations
 Average: 140.09%
-0x00. ES6 Basics
+## 0x00. ES6 Basics
 JavaScript
 ES6
  Weight: 1
  Project over - took place from Jun 24, 2024 6:00 AM to Jun 25, 2024 6:00 AM
  An auto review will be launched at the deadline
-In a nutshell…
+## In a nutshell…
 Auto QA review: 36.1/41 mandatory & 3.3/4 optional
 Altogether:  160.69%
 Mandatory: 88.05%
 Optional: 82.5%
 Calculation:  88.05% + (88.05% * 82.5%)  == 160.69%
-Concepts
+## Concepts
 For this project, we expect you to look at these concepts:
 
 JavaScript programming
 Software Linter
 
 
-Resources
+## Resources
 Read or watch:
 
 ECMAScript 6 - ECMAScript 2015
@@ -30,7 +30,7 @@ Arrow functions
 Default parameters
 Rest parameter
 Javascript ES6 — Iterables and Iterators
-Learning Objectives
+## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 What ES6 is
@@ -42,7 +42,7 @@ Rest and spread function parameters
 String templating in ES6
 Object creation and their properties in ES6
 Iterators and for-of loops
-Requirements
+## Requirements
 General
 All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
 Allowed editors: vi, vim, emacs, Visual Studio Code
@@ -79,7 +79,7 @@ Finally…
 Don’t forget to run npm install from the terminal of your project folder to install all necessary project dependencies.
 
 Tasks
-0. Const or let?
+### 0. Const or let?
 mandatory
 Score: 93.0% (Checks completed: 100.0%)
 Modify
@@ -118,7 +118,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
 File: 0-constants.js
    
-1. Block Scope
+### 1. Block Scope
 mandatory
 Score: 88.33% (Checks completed: 100.0%)
 Given what you’ve read about var and hoisting, modify the variables inside the function taskBlock so that the variables aren’t overwritten inside the conditional block.
@@ -152,7 +152,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
 File: 1-block-scoped.js
    
-2. Arrow functions
+### 2. Arrow functions
 mandatory
 Score: 88.33% (Checks completed: 100.0%)
 Rewrite the following standard function to use ES6’s arrow syntax of the function add (it will be an anonymous function after)
@@ -184,7 +184,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
 File: 2-arrow.js
    
-3. Parameter defaults
+### 3. Parameter defaults
 mandatory
 Score: 93.0% (Checks completed: 100.0%)
 Condense the internals of the following function to 1 line - without changing the name of each function/variable.
@@ -221,7 +221,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
 File: 3-default-parameter.js
    
-4. Rest parameter syntax for functions
+### 4. Rest parameter syntax for functions
 mandatory
 Score: 88.33% (Checks completed: 100.0%)
 Modify the following function to return the number of arguments passed to it using the rest parameter syntax
@@ -252,7 +252,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
 File: 4-rest-parameter.js
    
-5. The wonders of spread syntax
+### 5. The wonders of spread syntax
 mandatory
 Score: 88.33% (Checks completed: 100.0%)
 Using spread syntax, concatenate 2 arrays and each character of a string by modifying the function below. Your function body should be one line long.
@@ -280,7 +280,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
 File: 5-spread-operator.js
    
-6. Take advantage of template literals
+### 6. Take advantage of template literals
 mandatory
 Score: 88.33% (Checks completed: 100.0%)
 Rewrite the return statement to use a template literal so you can the substitute the variables you’ve defined.
@@ -314,7 +314,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
 File: 6-string-interpolation.js
    
-7. Object property value shorthand syntax
+### 7. Object property value shorthand syntax
 mandatory
 Score: 76.67% (Checks completed: 100.0%)
 Notice how the keys and the variable names are the same?
@@ -347,7 +347,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
 File: 7-getBudgetObject.js
    
-8. No need to create empty objects before adding in properties
+### 8. No need to create empty objects before adding in properties
 mandatory
 Score: 88.33% (Checks completed: 100.0%)
 Rewrite the getBudgetForCurrentYear function to use ES6 computed property names on the budget object
@@ -383,7 +383,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
 File: 8-getBudgetCurrentYear.js
    
-9. ES6 method properties
+### 9. ES6 method properties
 mandatory
 Score: 88.33% (Checks completed: 100.0%)
 Rewrite getFullBudgetObject to use ES6 method properties in the fullBudget object
@@ -425,7 +425,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
 File: 9-getFullBudget.js
    
-10. For...of Loops
+### 10. For...of Loops
 mandatory
 Score: 88.33% (Checks completed: 100.0%)
 Rewrite the function appendToEachArrayValue to use ES6’s for...of operator. And don’t forget that var is not ES6-friendly.
@@ -455,7 +455,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
 File: 10-loops.js
    
-11. Iterator
+### 11. Iterator
 mandatory
 Score: 82.5% (Checks completed: 100.0%)
 Write a function named createEmployeesObject that will receive two arguments:
@@ -489,7 +489,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
 File: 11-createEmployeesObject.js
    
-12. Let's create a report object
+### 12. Let's create a report object
 mandatory
 Score: 82.5% (Checks completed: 100.0%)
 Write a function named createReportObject whose parameter, employeesList, is the return value of the previous function createEmployeesObject.
@@ -537,7 +537,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
 File: 12-createReportObject.js
    
-13. Iterating through report objects
+### 13. Iterating through report objects
 #advanced
 Score: 82.5% (Checks completed: 100.0%)
 Write a function named createIteratorObject, that will take into argument a report Object created with the previous function createReportObject.
@@ -580,7 +580,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x00-ES6_basic
 File: 100-createIteratorObject.js
    
-14. Iterate through object
+### 14. Iterate through object
 #advanced
 Score: 82.5% (Checks completed: 100.0%)
 Finally, write a function named iterateThroughObject. The function’s parameter reportWithIterator is the return value from createIteratorObject.

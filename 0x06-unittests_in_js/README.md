@@ -1,8 +1,8 @@
-Toggle navigation
+## Toggle navigation
 Curriculum
 Short Specializations
 Average: 142.95%
-0x06. Unittests in JS
+## 0x06. Unittests in JS
 UnitTests
 Back-end
 JavaScript
@@ -16,7 +16,7 @@ Mocha
  An auto review will be launched at the deadline
 
 
-Resources
+## Resources
 Read or watch:
 
 Mocha documentation
@@ -25,7 +25,7 @@ Sinon
 Express
 Request
 How to Test NodeJS Apps using Mocha, Chai and SinonJS
-Learning Objectives
+## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 How to use Mocha to write a test suite
@@ -36,7 +36,7 @@ When and how to use stubs
 What are hooks and when to use them
 Unit testing with Async functions
 How to write integration tests with a small node server
-Requirements
+## Requirements
 All of your code will be executed on Ubuntu 18.04 using Node 12.x.x
 Allowed editors: vi, vim, emacs, Visual Studio Code
 All your files should end with a new line
@@ -44,7 +44,7 @@ A README.md file, at the root of the folder of the project, is mandatory
 Your code should use the js extension
 When running every test with npm run test *.test.js, everything should pass correctly without any warning or error
 Tasks
-0. Basic test with Mocha and Node assertion library
+### 0. Basic test with Mocha and Node assertion library
 mandatory
 Install Mocha using npm:
 
@@ -101,7 +101,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: package.json, 0-calcul.js, 0-calcul.test.js
  
-1. Combining descriptions
+### 1. Combining descriptions
 mandatory
 Create a new file named 1-calcul.js:
 
@@ -141,7 +141,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: 1-calcul.js, 1-calcul.test.js
  
-2. Basic test using Chai assertion library
+### 2. Basic test using Chai assertion library
 mandatory
 While using Node assert library is completely valid, a lot of developers prefer to have a behavior driven development style. This type being easier to read and therefore to maintain.
 
@@ -164,7 +164,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: 2-calcul_chai.js, 2-calcul_chai.test.js
  
-3. Spies
+### 3. Spies
 mandatory
 Spies are a useful wrapper that will execute the wrapped function, and log useful information (e.g. was it called, with what arguments). Sinon is a library allowing you to create spies.
 
@@ -197,7 +197,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: utils.js, 3-payment.js, 3-payment.test.js
  
-4. Stubs
+### 4. Stubs
 mandatory
 Stubs are similar to spies. Except that you can provide a different implementation of the function you are wrapping. Sinon can be used as well for stubs.
 
@@ -225,7 +225,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: 4-payment.js, 4-payment.test.js
  
-5. Hooks
+### 5. Hooks
 mandatory
 Hooks are useful functions that can be called before execute one or all tests in a suite
 
@@ -252,7 +252,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: 5-payment.js, 5-payment.test.js
  
-6. Async tests with done
+### 6. Async tests with done
 mandatory
 Look into how to support async testing, for example when waiting for the answer of an API or from a Promise
 
@@ -279,7 +279,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: 6-payment_token.js, 6-payment_token.test.js
  
-7. Skip
+### 7. Skip
 mandatory
 When you have a long list of tests, and you can’t figure out why a test is breaking, avoid commenting out a test, or removing it. Skip it instead, and file a ticket to come back to it as soon as possible
 
@@ -337,7 +337,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: 7-skip.test.js
  
-8. Basic Integration testing
+### 8. Basic Integration testing
 mandatory
 In a folder 8-api located at the root of the project directory, copy this package.json over.
 
@@ -412,7 +412,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: 8-api/package.json, 8-api/api.js, 8-api/api.test.js
  
-9. Regex integration testing
+### 9. Regex integration testing
 mandatory
 In a folder 9-api, reusing the previous project in 8-api (package.json, api.js and api.test.js)
 
@@ -481,7 +481,7 @@ GitHub repository: alx-backend-javascript
 Directory: 0x06-unittests_in_js
 File: 9-api/api.js, 9-api/api.test.js, 9-api/package.json
  
-10. Deep equality & Post integration testing
+### 10. Deep equality & Post integration testing
 mandatory
 In a folder 10-api, reusing the previous project in 9-api (package.json, api.js and api.test.js)
 
